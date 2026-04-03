@@ -12,7 +12,7 @@ const C = {
   light: "#f0ebe0", red: "#8b3a3a"
 };
 
-const m = { fontFamily: "monospace" };
+
 const lbl = { fontFamily: "monospace", fontSize: 10, letterSpacing: 2, textTransform: "uppercase", color: C.brown, marginBottom: 6 };
 const td = (r) => ({ padding: "10px 14px", background: C.warm, borderBottom: "1px solid " + C.border, textAlign: r ? "right" : "left" });
 const tdT = (r) => ({ padding: "10px 14px", background: C.light, fontWeight: 700, textAlign: r ? "right" : "left" });
