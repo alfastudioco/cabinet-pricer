@@ -59,7 +59,7 @@ export default function App() {
   const fmtLF = n => parseFloat(n).toFixed(1);
 
   // ⬇️ PASTE YOUR API KEY BETWEEN THE QUOTES BELOW
-  const API_KEY = "PASTE-YOUR-KEY-HERE";
+  const API_KEY = "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";
 
   const callAPI = async (blocks) => {
     const res = await fetch("https://api.anthropic.com/v1/messages", {
